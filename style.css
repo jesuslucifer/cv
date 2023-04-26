@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.avatar {
+    width: 300px;
+}
+
+.header {
+    display: flex;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+
+.profile {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: 0.1em;
+}
+
+.about-me {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    width: 274px;
+    color: #cdcdcd;
+}
+
+.main {
+    display: flex;
+    
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 50px 0 0 0;
+}
+
+.contact {
+    padding: 40px;
+}
+
+.title {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background: #000000;
+    font-size: 20px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.contact-content {
+    margin-top: 20px;
+    display: flex;
+    border-bottom: #000000 2px solid;
+}
+
+.icon {
+    width: 20px;
+    margin: 0 5px 5px 0;
+}
+
+.education {
+    background: #ebebeb;
+    padding: 40px;
+}
+
+.education-content {
+    margin-top: 10px;
+}
+
+.university {
+    color: #a3a3a3;
+}
+
+.year {
+    color: #a3a3a3;
+}
+
+.practice {
+    margin: 50px auto 0 auto;
+    padding: 40px;
+}
+
+.skills {
+    margin-top: 240px;
+}
+
+.skills-content {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.circle {
+    margin: 5px 5px;
+    background: #000000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.circle-item {
+    display: flex;
+    margin-left: 10px;
+}
+
+.circle:last-child{
+    background: #858585;
+}
+
+.circle:nth-last-child(2).inactive {
+    background: #858585;
+}
